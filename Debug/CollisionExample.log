@@ -1,10 +1,6 @@
 ﻿  Circle.cpp
-  Collidable.cpp
-  Draw.cpp
-  Engine.cpp
-C:\Users\duren\source\repos\CollisionExample\CollisionExample\Engine.cpp(9,42): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
-C:\Users\duren\source\repos\CollisionExample\CollisionExample\Engine.cpp(9,34): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
-C:\Users\duren\source\repos\CollisionExample\CollisionExample\Engine.cpp(20,20): warning C4101: 'e': unreferenced local variable
-  Update.cpp
+C:\Users\duren\source\repos\CollisionExample\CollisionExample\Circle.cpp(68,20): warning C4018: '<': signed/unsigned mismatch
+  Rectangle.cpp
+C:\Users\duren\source\repos\CollisionExample\CollisionExample\Rectangle.cpp(49,20): warning C4018: '<': signed/unsigned mismatch
   Generating Code...
   CollisionExample.vcxproj -> C:\Users\duren\source\repos\CollisionExample\Debug\CollisionExample.exe

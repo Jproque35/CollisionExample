@@ -8,9 +8,11 @@ using namespace sf;
 
 int main()
 {
-	Engine engine;
+	Engine* e = Engine::getInstance();
 
-	engine.run();
+	e->run();
+
+	Engine::resetInstance();
 
 	return 0;
 

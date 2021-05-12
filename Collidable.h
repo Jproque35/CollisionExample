@@ -2,6 +2,7 @@
 #define COLLIDABLE_H
 #pragma once
 #include <SFML/Graphics.hpp>
+#include <vector>
 #include <iostream>
 
 using namespace sf;
@@ -42,7 +43,7 @@ public:
 	}
 
 	virtual const Drawable& getDrawable() const = 0;
-	virtual bool intersects(const Collidable& col) = 0;
+	virtual bool intersects(const Collidable& col) const = 0;
 	virtual void update(float dtAsSeconds) = 0;
 };
 
